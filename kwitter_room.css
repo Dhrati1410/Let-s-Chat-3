@@ -1,0 +1,71 @@
+body {
+    background-image: url("https://www.teahub.io/photos/full/302-3023885_professional-blue-website-background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: aliceblue;
+  }
+  .header {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px lavender, 1px 2px 1px lightblue,
+      1px 2px 1px lightblue, 1px 2px 1px lightblue, 1px 2px 1px lightblue,
+      1px 2px 1px lightblue, 1px 2px 1px lightblue, 1px 5px 1px lightblue,
+      1px 18px 6px rgba(0, 0, 0, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2),
+      1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+    margin-left: 100px;
+  }
+  
+  #room_name {
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  #logout {
+    font-size: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+  float: right;
+  }
+  
+  #output {
+    padding: 10px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+  }
+  #arb {
+    margin-bottom: 50px;
+    appearance: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395a;
+    cursor: pointer;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+  }
+  
